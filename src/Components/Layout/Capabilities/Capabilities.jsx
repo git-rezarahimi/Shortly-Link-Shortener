@@ -29,8 +29,8 @@ const Capabilities = () => {
   // Render the list of app capabilities
   return (
     <div className="relative mx-9">
-      <div className="absolute inset-x-0 z-0 h-2 transform rotate-90 md:rotate-0 top-60 bg-primary-cyan mt-[300px] md:mt-0 "></div>
-      <div className="relative flex flex-col gap-3 pt-32 pb-32 z-1 md:flex-row">
+      <div className="absolute inset-x-0  h-2 transform rotate-90 md:rotate-0 top-60 bg-primary-cyan mt-[300px] md:mt-0 mr-5"></div>
+      <div className="relative flex flex-col gap-3 pt-32 pb-32 md:flex-row">
         <CapabilitiesViewer items={capabilitiesList} />
       </div>
     </div>

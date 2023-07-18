@@ -1,8 +1,8 @@
-import LogoIcon from "../../../../assets/images/LogoIcon";
-import FacebookIcon from "../../../../assets/images/FacebookIcon";
-import TwitterIcon from "../../../../assets/images/TwitterIcon";
-import InstagramIcon from "../../../../assets/images/InstagramIcon";
-import PinterestIcon from "../../../../assets/images/PinterestIcon";
+import LogoIcon from "@/assets/images/LogoIcon";
+import FacebookIcon from "@/assets/images/FacebookIcon";
+import TwitterIcon from "@/assets/images/TwitterIcon";
+import InstagramIcon from "@/assets/images/InstagramIcon";
+import PinterestIcon from "@/assets/images/PinterestIcon";
 import FooterNav from "./FooterNav";
 
 const FooterNavigation = () => {

@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 const UrlInputForm = ({ inputUrl, onUrlChange, isValidUrl }) => {
   const inputClasses = {
     default:
-      "w-full px-5 py-3 border-4 rounded-md focus:outline-none lg:w-11/12 lg:ml-14 lg:mr-5",
-    invalid: "border-red-500",
+      "w-full px-5 py-3 rounded-md focus:outline-none lg:w-11/12 lg:ml-14 lg:mr-5",
+    invalid: "border-red-500 border-4",
   };
 
   return (

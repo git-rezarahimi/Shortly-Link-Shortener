@@ -8,9 +8,8 @@ const Button = ({
   ...props
 }) => {
   const defaultClasses =
-    "font-bold text-white transition-all bg-primary-cyan hover:bg-primary-cyan-light";
+    "font-bold text-white bg-primary-cyan transition-all  ";
   const classNames = defaultClasses + " " + classes;
-
   return (
     <button className={classNames} type={type} {...props}>
       {title}

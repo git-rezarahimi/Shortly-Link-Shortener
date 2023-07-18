@@ -16,6 +16,12 @@ Styles for hero section in the HeaderHero component
   }
 }
 
+@media (max-width: 414px) {
+  .scale-hero__image {
+    transform: scale(0.47);
+  }
+}
+
 /* 
 @font-face rules for the Poppins font family with different Unicode ranges for Devanagari,
  Latin, and Latin extended character sets. 
@@ -109,4 +115,20 @@ CSS classes for flip effect animation on menu modal open and close.
   transform: rotateX(90deg);
   opacity: 0;
   transition: all 1s;
+}
+
+/* special border style */
+.border-b-1 {
+  position: relative;
+}
+
+.border-b-1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(218, 213, 213);
+  transform: scaleY(0.5);
 }

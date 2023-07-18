@@ -1,11 +1,11 @@
 const HeroImage = () => {
   return (
-    <div>
+    <div className="">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="733"
         height="482"
-        className="z-0 transform scale-hero__image md:scale-90 sm:scale-75"
+        className="z-0 transform scale-hero__image md:scale-90 sm:scale-75 mt-neg-80"
       >
         <defs>
           <linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%">

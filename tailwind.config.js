@@ -21,13 +21,10 @@ export default {
       },
 
       backgroundImage: {
-        "shorten-box-desktop-pattern":
-          "url(./assets/images/bg-shorten-desktop.svg)",
-        "shorten-box-mobile-pattern":
-          "url(./assets/images/bg-shorten-mobile.svg)",
-        "boost-link-desktop-pattern":
-          "url(./assets/images/bg-boost-desktop.svg)",
-        "boost-link-mobile-pattern": "url(./assets/images/bg-boost-mobile.svg)",
+        "shorten-box-desktop-pattern": "url(/bg-shorten-desktop.svg)",
+        "shorten-box-mobile-pattern": "url(/bg-shorten-mobile.svg)",
+        "boost-link-desktop-pattern": "url(/bg-boost-desktop.svg)",
+        "boost-link-mobile-pattern": "url(/bg-boost-mobile.svg)",
       },
     },
   },
