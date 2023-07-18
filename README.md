@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![[screenshot 2.png]]
+![screenshot](https://github.com/git-rezarahimi/Shortly-Link-Shortener/assets/136918838/dd703efd-a338-46fb-a810-59f6e9caebe5)
+
 
 
 
