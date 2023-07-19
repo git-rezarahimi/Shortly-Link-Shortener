@@ -16,7 +16,7 @@ const ShortLinksListItem = ({ link }) => {
   };
 
   return (
-    <div className="flex flex-col items-center w-9/12 gap-3 px-5 py-5 mx-auto my-2 bg-white rounded-lg shadow-sm md:flex-row">
+    <div className="flex flex-col items-center w-9/12 gap-3 px-5 py-5 mx-auto my-2 bg-white rounded-lg shadow-sm md:flex-row ">
       <p className="w-full break-all">{link.inputUrl}</p>
       <p className=" text-primary-cyan">{link.shortUrl}</p>
       <Button

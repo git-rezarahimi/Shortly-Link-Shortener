@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex justify-between py-7">
+      <nav className="flex items-baseline justify-between py-7">
         <div className="flex items-center">
           <LogoIcon />
           <NavMenu />

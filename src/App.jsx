@@ -6,8 +6,10 @@ import Footer from "./Components/Layout/Footer/Footer";
 function App() {
   return (
     <>
-      <div className="mx-auto max-w-7xl ">
+      <div className="container relative mx-auto mb-52">
         <HeaderHeroSection />
+      </div>
+      <div className="relative z-10 pb-10 bg-neutral-light-gray ">
         <LinkShortener />
         <Capabilities />
       </div>

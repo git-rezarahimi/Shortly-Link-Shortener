@@ -7,7 +7,7 @@ const ShortLinksList = ({ localStorageKey }) => {
   const shortLinks = getItem(localStorageKey) ?? [];
 
   return (
-    <div>
+    <div className="relative top-[-73px]">
       <TransitionGroup>
         {shortLinks.map((link) => (
           <CSSTransition key={link.shortUrl} classNames="flip" timeout={3000}>

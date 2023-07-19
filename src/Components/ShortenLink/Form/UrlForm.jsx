@@ -30,7 +30,7 @@ const UrlForm = ({ onUrlSubmit, isLoading }) => {
 
   return (
     <form
-      className="relative flex flex-col w-9/12 py-8 mx-auto bg-right-top bg-no-repeat rounded-lg mb-28 top-20 z-1 lg:bg-cover md:bg-bottom-left lg:justify-center lg:flex-row lg:bg-shorten-box-desktop-pattern bg-shorten-box-mobile-pattern lg:py-12 xl:py-14 bg-primary-dark-violet"
+      className=" relative flex flex-col w-9/12 py-8 mx-auto bg-right-top bg-no-repeat rounded-lg z-1 lg:bg-cover md:bg-bottom-left lg:justify-center lg:flex-row lg:bg-shorten-box-desktop-pattern bg-shorten-box-mobile-pattern lg:py-12 xl:py-14 bg-primary-dark-violet top-[-79px]"
       onSubmit={handleSubmit}
     >
       <UrlInputForm
